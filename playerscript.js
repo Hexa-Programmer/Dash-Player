@@ -3,7 +3,7 @@ const playbutton = document.getElementById("play")
 const skipnextbutton = document.getElementById("skipnext")
 const skipbackbutton = document.getElementById("skipback")
 const audioplayer = document.getElementById("audioplayer")
-const playlist = ["letithappen.mp3", "thelessiknowthebetter.mp3", "pushthefeelingon.mp3", "letmetakeyoudancing.mp3"]
+const playlist = ["Music/letithappen.mp3", "Music/thelessiknowthebetter.mp3", "Music/pushthefeelingon.mp3", "Music/letmetakeyoudancing.mp3"]
 let currenttrackindex = 0; //chooses the song in the list of the "playlist" variable
 //logic for play and pause
 let isplaying = false;
